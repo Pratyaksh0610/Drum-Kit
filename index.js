@@ -1,7 +1,7 @@
 alert("hello");
 function check(ih) {
   switch (ih) {
-    case "w":
+    case "j":
       var audio = new Audio("sounds/tom-1.mp3");
       document.querySelector("." + ih).classList.add("pressed");
       setTimeout(function () {
@@ -9,7 +9,7 @@ function check(ih) {
       }, 200);
       audio.play();
       break;
-    case "a":
+    case "k":
       var audio = new Audio("sounds/tom-2.mp3");
       document.querySelector("." + ih).classList.toggle("pressed");
       setTimeout(function () {
@@ -33,7 +33,7 @@ function check(ih) {
       }, 200);
       document.querySelector("." + ih).classList.toggle("pressed");
       break;
-    case "j":
+    case "w":
       var audio = new Audio("sounds/crash.mp3");
       document.querySelector("." + ih).classList.toggle("pressed");
       setTimeout(function () {
@@ -42,7 +42,7 @@ function check(ih) {
       audio.play();
       break;
 
-    case "k":
+    case "a":
       var audio = new Audio("sounds/kick-bass.mp3");
       document.querySelector("." + ih).classList.toggle("pressed");
       setTimeout(function () {
