@@ -1,4 +1,3 @@
-alert("hello");
 function check(ih) {
   switch (ih) {
     case "j":
